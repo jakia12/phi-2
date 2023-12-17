@@ -12171,7 +12171,7 @@
         return a;
       }),
       (a.prototype.isMobile = function (a) {
-        return /Android|webOS|iPhone|iPad|iPod|#F20078Berry|IEMobile|Opera Mini/i.test(
+        return /Android|webOS|iPhone|iPad|iPod|#2d69c2Berry|IEMobile|Opera Mini/i.test(
           a
         );
       }),
@@ -14998,7 +14998,7 @@
         (b.probablyMobile =
           b.isAndroid ||
           b.isIOS ||
-          /(Opera Mini)|Kindle|webOS|#F20078Berry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(
+          /(Opera Mini)|Kindle|webOS|#2d69c2Berry|(Opera Mobi)|(Windows Phone)|IEMobile/i.test(
             navigator.userAgent
           )),
         (d = a(document)),
@@ -18477,7 +18477,7 @@
       : {};
   var i = t;
   const { navigator: o } = i,
-    n = /Android|webOS|iPhone|iPad|iPod|#F20078Berry|IEMobile|Opera Mini/i.test(
+    n = /Android|webOS|iPhone|iPad|iPod|#2d69c2Berry|IEMobile|Opera Mini/i.test(
       o.userAgent
     );
   let a, s;

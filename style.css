@@ -1,0 +1,56 @@
+.de_count.text-center {
+  padding: 48px;
+  background: #2d69c2;
+  border-radius: 10px;
+  margin: 11px;
+  filter: blur(10x);
+}
+.hero_sec {
+  z-index: 0;
+  padding: 80px 0;
+  background-image: linear-gradient(#0000007b, #00000063), url(/images/bg2.jpg) !important;
+  background-size: cover;
+}
+
+#section-about {
+  padding: 80px 0;
+  background-image: linear-gradient(#000000c3, #000000ca),
+    url(/images/abtbg.jpg);
+  background-color: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.roadmap_sec {
+  padding: 80px 0;
+  background-image: linear-gradient(#0000009b, #00000095), url(/images/bg1.jpg) !important;
+  background-color: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.community_sec {
+  padding: 0px 0 60px !important;
+  text-align: center;
+  margin: 0 auto;
+}
+.community_sec h2 {
+  font-size: 50px;
+  color: #fff;
+  padding: 20px 0;
+}
+.de_3d-box h3 {
+  margin-left: 0;
+  margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .hero_sec {
+    z-index: 1;
+    padding: 50px 0;
+  }
+  .community_sec h2 {
+    font-size: 40px;
+    color: #fff;
+    padding: 20px 0;
+  }
+}
